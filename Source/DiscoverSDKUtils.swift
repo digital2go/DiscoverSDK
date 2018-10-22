@@ -104,16 +104,8 @@ class DiscoverSDKUtils: NSObject {
 	}
 
 	var deviceCarrier: String {
-
 		let phoneInfo = CTTelephonyNetworkInfo()
-
-		if #available(iOS 12.0, *) {
-			guard let cellularProviders = phoneInfo.serviceSubscriberCellularProviders else { return "" }
-			let carrierNames = cellularProviders.compactMap { $0.value.carrierName }
-			return carrierNames.joined()
-		} else {
-			return phoneInfo.subscriberCellularProvider?.carrierName ?? ""
-		}
+		return phoneInfo.subscriberCellularProvider?.carrierName ?? ""
 	}
 
 	var systemVersion: String {
@@ -125,7 +117,7 @@ class DiscoverSDKUtils: NSObject {
 	}
 
 	var appState: String {
-		let appState: UIApplication.State = UIApplication.shared.applicationState
+		let appState: UIApplicationState = UIApplication.shared.applicationState
 		return appState == .active ? "foreground" : "background"
 	}
 

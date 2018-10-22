@@ -53,7 +53,7 @@ public class DiscoverSDK: NSObject {
 	public func openLocationPermissionSettings() {
 
 		guard let bundleId = Bundle.main.bundleIdentifier,
-			let url = URL(string: "\(UIApplication.openSettingsURLString)&path=LOCATION/\(bundleId)") else {
+			let url = URL(string: "\(UIApplicationOpenSettingsURLString)&path=LOCATION/\(bundleId)") else {   
 			return
 		}
 		UIApplication.shared.open(url, options: [:], completionHandler: nil)
