@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
 
   s.platform              = :ios
   s.ios.deployment_target = '10.0'
-  s.swift_version         = '4.0'
 
   s.source                = { :git => "https://edias@bitbucket.org/devbeasties/ios-discover-sdk.git", :tag => "v#{s.version}" }
   s.source_files          = "Source/**/*.swift"
