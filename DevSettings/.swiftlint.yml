@@ -1,0 +1,25 @@
+disabled_rules:
+  - switch_case_alignment
+  - trailing_whitespace
+  - vertical_parameter_alignment
+
+excluded:
+  - Pods
+  - Example
+
+function_body_length:
+  - 50 # warning
+  - 100 # error
+
+line_length: 150
+
+opt_in_rules:
+  - force_unwrapping
+
+
+identifier_name:
+ excluded:
+ - iv
+ - x
+ - y
+ - to
