@@ -1,13 +1,13 @@
-## Requirements
+# Requirements
 ---- 
 * iOS 10 +
 * Xcode 10 +
 * Swift 4.2 +
 * Cocoapods
 
-## Installation
+# Installation
 ---- 
-### CocoaPods
+## CocoaPods
 Cocoapods is a dependency management platform to install, update and delete the libraries used on the project.
   
   
@@ -16,7 +16,6 @@ You can  install Cocoapods with the following terminal command
 ```ruby
 $ sudo gem install cocoapods
 ```
-  
     
 To initialize Cocoapods on your project, navigate through the terminal to your project directory and run this command:
 ```ruby
@@ -26,7 +25,7 @@ $ cocoapods init
 This will create a .podfile on the root of your project. The .podfile is the configuration file that Cocoapods use to declare the project dependencies. 
 
 Add the Discovery SDK as a dependency to your project like this.
-
+  
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
@@ -43,7 +42,7 @@ On the root of your project where the Podfile was created run the following comm
 $ pod install
 ```
 
-### Configuring  Discovery SDK
+## Configuring  Discovery SDK
 
 Add the following keys to the plist of your app. Discover SDK will need these permissions to track user location.
 
@@ -51,9 +50,9 @@ Add the following keys to the plist of your app. Discover SDK will need these pe
 - NSLocationAlwaysAndWhenInUseUsageDescription
 - NSLocationWhenInUseUsageDescription
 
-## Usage
+# Usage
 ---- 
-### Connecting the Discover SDK  
+## Connecting the Discover SDK  
 
 To start using the Discover SDK simply call the **connect** operation.  
 
@@ -65,11 +64,11 @@ The discover SDK will request location permission from your app and after author
 
 This enough to have the Discover SDK installed configured and running into your app.
 
-### Getting notified by Discover SDK Operations
+# Using Delegates
 
 Discover SDK can add a more fine grain control over each step of the permissions or recording process in your App.
 
-### Getting notified by Location Permissions
+## Location Permissions Delegate
   
 To receive updates about location permissions just add a location delegate and implement the required operations.  
   
@@ -92,6 +91,3 @@ extension MyClass: DiscoverSDKLocationDelegate {
 	}
 }
 ```
-
-
-### Getting notified by Recording Operations
