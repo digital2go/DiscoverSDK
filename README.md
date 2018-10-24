@@ -70,15 +70,16 @@ This enough to have the Discover SDK installed configured and running into your 
 Discover SDK can add a more fine grain control over each step of the permissions or recording process in your App.
 
 ### Getting notified by Location Permissions
-
+  
 To receive updates about location permissions just add a location delegate and implement the required operations.  
-
+  
 ```swift
 DiscoverSDK.shared.locationDelegate = self
 DiscoverSDK.shared.connect()
 ```
-  
+    
 Implement the following operations in your delegate
+  
 ```swift
 extension MyClass: DiscoverSDKLocationDelegate {
 
