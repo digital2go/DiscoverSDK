@@ -8,26 +8,25 @@
 ## Installation
 ---- 
 ### CocoaPods
-
 Cocoapods is a dependency management platform to install, update and delete the libraries used on the project.
-
-You can  install Cocoapods with the following terminal command  
-
+  
+  
+You can  install Cocoapods with the following terminal command
+   
 ```ruby
 $ sudo gem install cocoapods
 ```
   
-  
-To initialize Cocoapods on your project, navigate through the terminal to your project directory and run this command:  
-
+    
+To initialize Cocoapods on your project, navigate through the terminal to your project directory and run this command:
 ```ruby
 $ cocoapods init
 ```
 
 This will create a .podfile on the root of your project. The .podfile is the configuration file that Cocoapods use to declare the project dependencies. 
 
-Add the Discovery SDK as a dependency to your project like this.  
-  
+Add the Discovery SDK as a dependency to your project like this.
+
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
@@ -79,8 +78,7 @@ DiscoverSDK.shared.locationDelegate = self
 DiscoverSDK.shared.connect()
 ```
   
-Implement the following operations in your delegate  
-  
+Implement the following operations in your delegate
 ```swift
 extension MyClass: DiscoverSDKLocationDelegate {
 
