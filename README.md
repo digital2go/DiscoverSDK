@@ -22,7 +22,7 @@ To initialize Cocoapods on your project, navigate through the terminal to your p
 $ cocoapods init
 ```
 
-This will create a .podfile on the root of your project. The .podfile is the configuration file that Cocoapods use to declare the project dependencies. 
+This will create a `.podfile` on the root of your project. The `.podfile` is the configuration file that Cocoapods use to declare the project dependencies. 
 
 Add the Discovery SDK as a dependency to your project like this.
   
@@ -36,15 +36,15 @@ target 'Your Target Name' do
 end
 ```
 
-On the root of your project where the Podfile was created run the following command to install the Discovery SDK as a dependency.
+On the root of your project where the `.podfile` was created run the following command to install the Discovery SDK as a dependency.
 
 ```ruby
 $ pod install
 ```
 
-## Configuring  Discovery SDK
+##  Permissions
 
-Add the following keys to the plist of your app. Discover SDK will need these permissions to track user location.
+Discover SDK will need location and bluetooth permissions. Add the following keys to  your App plist.
 
 - NSBluetoothPeripheralUsageDescription
 - NSLocationAlwaysAndWhenInUseUsageDescription
