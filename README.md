@@ -62,9 +62,9 @@ DiscoverSDK.shared.connect()
 
 The discover SDK will request location permission from your app and after authorized  it will start recording immediately. The default configuration records data every 20 seconds and streaming it every minute.
 
-This enough to have the Discover SDK installed configured and running into your app.
+This is all you have to have the DiscoverSDK installed and running.
 
-# Using Delegates
+# Fine grain configuration using Delegates
 
 Discover SDK can add a more fine grain control over each step of the permissions or recording process in your App.
 
