@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.source                = { :git => "https://github.com/digital2go/DiscoverSDK.git", :tag => "{s.version}" }
   s.source_files          = "Source/**/*.swift"
 
-  s.dependency 'AWSKinesis', '~> 2.6.22'
-  s.dependency 'AWSCognito', '~> 2.6.22'
+  s.dependency 'AWSKinesis', '~> 2.6.31'
+  s.dependency 'AWSCognito', '~> 2.6.31'
   s.dependency 'Reachability'
-  s.dependency 'DeviceKit', '~> 1.3'
+  s.dependency 'DeviceKit', '~> 1.9.0'
 
 end
