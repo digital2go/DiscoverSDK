@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = '10.0'
 
-  s.source                = { :git => 'https://github.com/Alamofire/Alamofire.git', :tag => s.version }
+  s.source                = { :git => 'https://github.com/digital2go/DiscoverSDK.git', :tag => s.version }
   s.source_files          = "Source/**/*.swift"
 
   s.dependency 'AWSKinesis', '~> 2.6.31'
