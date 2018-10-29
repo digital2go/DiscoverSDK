@@ -92,7 +92,8 @@ class DiscoverSDKUtils: NSObject {
 	}
 
 	var userAgent: String {
-		return WKWebView().customUserAgent ?? ""
+		let userAgent =  UIWebView().stringByEvaluatingJavaScript(from: "navigator.userAgent") ?? ""
+		return userAgent
 	}
 
 	var isAdvertisingTrackingEnabled: Bool {
@@ -105,7 +106,8 @@ class DiscoverSDKUtils: NSObject {
 
 	var deviceCarrier: String {
 		let phoneInfo = CTTelephonyNetworkInfo()
-		return phoneInfo.subscriberCellularProvider?.carrierName ?? ""
+		let phoneCarrier = phoneInfo.subscriberCellularProvider
+		return phoneCarrier?.carrierName ?? "no value"
 	}
 
 	var systemVersion: String {
@@ -125,8 +127,7 @@ class DiscoverSDKUtils: NSObject {
 		return timeStamp(withDate: Date())
 	}
 
-	var UTCTimestamp: String {
-		dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
+	var localTimestamp: String {
 		return dateFormatter.string(from: Date())
 	}
 
@@ -139,26 +140,13 @@ class DiscoverSDKUtils: NSObject {
 		return "\(peripheralNames)"
 	}
 
-	var bluetoothStatus: String {
-		switch bluetoothState.state {
-		case .poweredOn:
-			return "on"
-		case .poweredOff:
-			return "off"
-		case .resetting:
-			return "resetting"
-		case .unauthorized:
-			return "unauthorized"
-		case .unsupported:
-			return "unsupported"
-		case .unknown:
-			return "unknown"
-		}
+	var bluetoothEnabled: Bool {
+		return bluetoothState.state == .poweredOn
 	}
 
 	/***
-	 **WIFI Info
-	 */
+	**WIFI Info
+	*/
 
 	var wiFiAddress: String {
 		var address: String?
@@ -184,8 +172,8 @@ class DiscoverSDKUtils: NSObject {
 					var addr = interface.ifa_addr.pointee
 					var hostname = [CChar](repeating: 0, count: Int(NI_MAXHOST))
 					getnameinfo(&addr, socklen_t(interface.ifa_addr.pointee.sa_len),
-					            &hostname, socklen_t(hostname.count),
-					            nil, socklen_t(0), NI_NUMERICHOST)
+								&hostname, socklen_t(hostname.count),
+								nil, socklen_t(0), NI_NUMERICHOST)
 					address = String(cString: hostname)
 				}
 			}
@@ -220,8 +208,8 @@ class DiscoverSDKUtils: NSObject {
 					var addr = interface.ifa_addr.pointee
 					var hostname = [CChar](repeating: 0, count: Int(NI_MAXHOST))
 					getnameinfo(&addr, socklen_t(interface.ifa_addr.pointee.sa_len),
-					            &hostname, socklen_t(hostname.count),
-					            nil, socklen_t(0), NI_NUMERICHOST)
+								&hostname, socklen_t(hostname.count),
+								nil, socklen_t(0), NI_NUMERICHOST)
 					address = String(cString: hostname)
 				}
 			}
@@ -231,7 +219,7 @@ class DiscoverSDKUtils: NSObject {
 	}
 
 	var appVersion: String {
-		let version = Bundle(identifier: "org.cocoapods.DiscoverSDK")?.infoDictionary?["CFBundleShortVersionString"] as? String
+		let version = Bundle(identifier: "org.cocoapods.SDKLite")?.infoDictionary?["CFBundleShortVersionString"] as? String
 		return version ?? ""
 	}
 }

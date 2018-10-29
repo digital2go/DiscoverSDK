@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 
   s.name         = "DiscoverSDK"
   s.version      = "0.5.2"
+  s.license      = "MIT"
   s.summary      = "A framework that provides device information and data collecting"
   s.homepage     = "http://www.digital2go.com"
-  s.license      = "MIT"
   s.author       = { "Eduardo Dias" => "eduardo@digital2go.com" }
 
   s.platform              = :ios

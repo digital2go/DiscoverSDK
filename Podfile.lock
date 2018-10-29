@@ -4,13 +4,13 @@ PODS:
   - AWSCore (2.6.31)
   - AWSKinesis (2.6.31):
     - AWSCore (= 2.6.31)
-  - DeviceKit (1.3.0)
+  - DeviceKit (1.9.0)
   - Reachability (3.2)
 
 DEPENDENCIES:
   - AWSCognito (= 2.6.31)
   - AWSKinesis (= 2.6.31)
-  - DeviceKit (= 1.3)
+  - DeviceKit
   - Reachability
 
 SPEC REPOS:
@@ -25,9 +25,9 @@ SPEC CHECKSUMS:
   AWSCognito: c6bc1f7814ca3484b8ed76ba7f319ffea7c19e68
   AWSCore: c7abfb87ef802d1c4b5dd56db64ac8b4a7823ef0
   AWSKinesis: d9ba2c9087178bd5b7e85f3f0df73fc0faa4489c
-  DeviceKit: 757b9078a60a117cbb8b185fd2381020ba5d8824
+  DeviceKit: a376cb3d0dda0c27c81dcc0d2b7b8600b6802065
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: cd5cf0ea33d7dcb96eeca1b35a12adbfeddfa78a
+PODFILE CHECKSUM: 0b67a7fd9ca8c9c3c4ce00479be90ecd5b55a6e3
 
 COCOAPODS: 1.5.3
