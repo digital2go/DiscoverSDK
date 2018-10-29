@@ -7,7 +7,7 @@ target 'DiscoverSDK' do
   pod 'AWSKinesis', '2.6.31'
   pod 'Reachability'
   pod 'AWSCognito', '2.6.31'
-  pod 'DeviceKit', '1.3'
+  pod 'DeviceKit', '1.9.0'
 
   target 'DiscoverSDKTests' do
     inherit! :search_paths

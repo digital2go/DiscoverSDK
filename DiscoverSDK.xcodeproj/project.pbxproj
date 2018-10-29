@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DE78A58786FD19EF4F07347 /* Pods_DiscoverSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CFF0472AD6EBE6CB5AFEAA /* Pods_DiscoverSDKTests.framework */; };
 		E70F1B66027166DB63567F83 /* Pods_DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB677A138400C1E5F3A97BDF /* Pods_DiscoverSDK.framework */; };
-		F8A38A14217D7B5D0096DF36 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F8A38A13217D7B5D0096DF36 /* Podfile */; };
+		F8BB00FC218691F300DF532C /* DiscoverSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F8BB00FB218691F300DF532C /* DiscoverSDK.podspec */; };
 		F8C92985217D41B600D37F92 /* DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */; };
 		F8C9298A217D41B600D37F92 /* DiscoverSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92989217D41B600D37F92 /* DiscoverSDKTests.swift */; };
 		F8C92996217D427800D37F92 /* DiscoverSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92995217D427800D37F92 /* DiscoverSDK.swift */; };
@@ -21,7 +21,6 @@
 		F8C929A0217D4E1500D37F92 /* AWSConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9299E217D4E1500D37F92 /* AWSConnector.swift */; };
 		F8C929A2217D4E9700D37F92 /* DiscoverSDKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C929A1217D4E9700D37F92 /* DiscoverSDKUtils.swift */; };
 		F8C929A3217D4E9700D37F92 /* DiscoverSDKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C929A1217D4E9700D37F92 /* DiscoverSDKUtils.swift */; };
-		F8C929AC217D70EB00D37F92 /* DiscoverSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F8C929AB217D70EB00D37F92 /* DiscoverSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,7 @@
 		86F7253B4E7DB2C98B10DF6B /* Pods-DiscoverSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscoverSDK/Pods-DiscoverSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		CA80E035C53C1600F42CD6C5 /* Pods-DiscoverSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB677A138400C1E5F3A97BDF /* Pods_DiscoverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A38A13217D7B5D0096DF36 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = Source/Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8BB00FB218691F300DF532C /* DiscoverSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DiscoverSDK.podspec; sourceTree = "<group>"; };
 		F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiscoverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C9297F217D41B600D37F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C92984217D41B600D37F92 /* DiscoverSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +51,6 @@
 		F8C9299B217D4D0A00D37F92 /* DiscoverSDKSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverSDKSettings.swift; sourceTree = "<group>"; };
 		F8C9299E217D4E1500D37F92 /* AWSConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSConnector.swift; sourceTree = "<group>"; };
 		F8C929A1217D4E9700D37F92 /* DiscoverSDKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverSDKUtils.swift; sourceTree = "<group>"; };
-		F8C929AB217D70EB00D37F92 /* DiscoverSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DiscoverSDK.podspec; path = Source/DiscoverSDK.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +94,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8AF5020217DD10600E5F43E /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				F8A38A13217D7B5D0096DF36 /* Podfile */,
-				F8C929AB217D70EB00D37F92 /* DiscoverSDK.podspec */,
-			);
-			name = Specs;
-			sourceTree = "<group>";
-		};
 		F8C92971217D41B600D37F92 = {
 			isa = PBXGroup;
 			children = (
+				F8BB00FB218691F300DF532C /* DiscoverSDK.podspec */,
 				F8C9297D217D41B600D37F92 /* Source */,
 				F8C92988217D41B600D37F92 /* DiscoverSDKTests */,
 				F8C9297C217D41B600D37F92 /* Products */,
@@ -128,7 +118,6 @@
 		F8C9297D217D41B600D37F92 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F8AF5020217DD10600E5F43E /* Specs */,
 				F8C92995217D427800D37F92 /* DiscoverSDK.swift */,
 				F8C9297F217D41B600D37F92 /* Info.plist */,
 				F8C92998217D4C9000D37F92 /* DataQualityAnalyser.swift */,
@@ -243,8 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A38A14217D7B5D0096DF36 /* Podfile in Resources */,
-				F8C929AC217D70EB00D37F92 /* DiscoverSDK.podspec in Resources */,
+				F8BB00FC218691F300DF532C /* DiscoverSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
