@@ -1,0 +1,33 @@
+PODS:
+  - AWSCognito (2.6.31):
+    - AWSCore (= 2.6.31)
+  - AWSCore (2.6.31)
+  - AWSKinesis (2.6.31):
+    - AWSCore (= 2.6.31)
+  - DeviceKit (1.3.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AWSCognito (= 2.6.31)
+  - AWSKinesis (= 2.6.31)
+  - DeviceKit (= 1.3)
+  - Reachability
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCognito
+    - AWSCore
+    - AWSKinesis
+    - DeviceKit
+    - Reachability
+
+SPEC CHECKSUMS:
+  AWSCognito: c6bc1f7814ca3484b8ed76ba7f319ffea7c19e68
+  AWSCore: c7abfb87ef802d1c4b5dd56db64ac8b4a7823ef0
+  AWSKinesis: d9ba2c9087178bd5b7e85f3f0df73fc0faa4489c
+  DeviceKit: 757b9078a60a117cbb8b185fd2381020ba5d8824
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: cd5cf0ea33d7dcb96eeca1b35a12adbfeddfa78a
+
+COCOAPODS: 1.5.3
