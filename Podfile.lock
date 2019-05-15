@@ -1,33 +1,65 @@
 PODS:
+  - Alamofire (4.8.0)
   - AWSCognito (2.6.31):
     - AWSCore (= 2.6.31)
   - AWSCore (2.6.31)
   - AWSKinesis (2.6.31):
     - AWSCore (= 2.6.31)
-  - DeviceKit (1.9.0)
+  - DeviceKit (1.3.0)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - OHHTTPStubs/Swift (6.1.0):
+    - OHHTTPStubs/Default
+  - PromiseKit (6.5.3):
+    - PromiseKit/CorePromise (= 6.5.3)
+    - PromiseKit/Foundation (= 6.5.3)
+    - PromiseKit/UIKit (= 6.5.3)
+  - PromiseKit/CorePromise (6.5.3)
+  - PromiseKit/Foundation (6.5.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.3):
+    - PromiseKit/CorePromise
   - Reachability (3.2)
 
 DEPENDENCIES:
+  - Alamofire (= 4.8.0)
   - AWSCognito (= 2.6.31)
   - AWSKinesis (= 2.6.31)
-  - DeviceKit
+  - DeviceKit (= 1.3)
+  - OHHTTPStubs/Swift (= 6.1.0)
+  - PromiseKit (= 6.5.3)
   - Reachability
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - AWSCognito
     - AWSCore
     - AWSKinesis
     - DeviceKit
+    - OHHTTPStubs
+    - PromiseKit
     - Reachability
 
 SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   AWSCognito: c6bc1f7814ca3484b8ed76ba7f319ffea7c19e68
   AWSCore: c7abfb87ef802d1c4b5dd56db64ac8b4a7823ef0
   AWSKinesis: d9ba2c9087178bd5b7e85f3f0df73fc0faa4489c
-  DeviceKit: a376cb3d0dda0c27c81dcc0d2b7b8600b6802065
+  DeviceKit: 757b9078a60a117cbb8b185fd2381020ba5d8824
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  PromiseKit: c609029bdd801f792551a504c695c7d3098b42cd
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: 0b67a7fd9ca8c9c3c4ce00479be90ecd5b55a6e3
+PODFILE CHECKSUM: fd361bae9646c97a09b8d619d302d06e2d857934
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
