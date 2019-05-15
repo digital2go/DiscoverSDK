@@ -9,6 +9,15 @@
 import AWSCore
 import Foundation
 
+class DeveloperAuthenticatedIdentityProvider: AWSCognitoCredentialsProviderHelper {
+	override func token() -> AWSTask<NSString> {
+		
+		self.identityId = CredentialsManager.identityId
+
+		return AWSTask(result: CredentialsManager.token as NSString?)
+	}
+}
+
 class AWSConnector {
 
 	static let shared = AWSConnector()
@@ -25,7 +34,14 @@ class AWSConnector {
 	}
 
 	private lazy var configuration: AWSServiceConfiguration = {
-		let credentialsProvider = AWSCognitoCredentialsProvider(regionType: .USWest2, identityPoolId: identityPoolId)
+		
+		let identityPoolId = CredentialsManager.identityId ?? ""
+	
+		let developerAuthenticatedIdentity =  DeveloperAuthenticatedIdentityProvider(regionType: .USWest2, 
+												   identityPoolId: identityPoolId, 
+												   useEnhancedFlow: true, 
+												   identityProviderManager: nil)
+		let credentialsProvider = AWSCognitoCredentialsProvider(regionType: .USWest2, identityProvider: developerAuthenticatedIdentity)
 		return AWSServiceConfiguration(region: .USWest2, credentialsProvider: credentialsProvider)
 	}()
 

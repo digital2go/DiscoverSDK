@@ -49,11 +49,25 @@ public class DiscoverSDK: NSObject {
 	public var connected: Bool {
 		return AWSConnector.shared.connected
 	}
-
+	
+	// MARK: - Public Operations
+	public var initialized: (() -> Void)? {
+		didSet {
+			guard AuthenticationManager.isTokenValid else { return }
+			initialized?()
+		}
+	}
+	
+	public func initialize(username: String, password: String) {
+		_ = AuthenticationManager.login(username: username, password: password).done { [weak self] _ in
+			self?.initialized?()
+		}
+	}
+	
 	public func openLocationPermissionSettings() {
 
 		guard let bundleId = Bundle.main.bundleIdentifier,
-			let url = URL(string: "\(UIApplicationOpenSettingsURLString)&path=LOCATION/\(bundleId)") else {   
+            let url = URL(string: "\(UIApplication.openSettingsURLString)&path=LOCATION/\(bundleId)") else {   
 			return
 		}
 		UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -113,7 +127,7 @@ public class DiscoverSDK: NSObject {
 		self.settings = settings
 
 		AWSConnector.shared.identityPoolId = settings.useDefaultDataStream ? settings.identityPoolId : nil
-
+				
 		autoMonitorIfReady(autoMonitoring: settings.autoStartMonitoring, monitoringAuthorized: isMonitoringAuthorized)
 	}
 
@@ -212,7 +226,7 @@ public class DiscoverSDK: NSObject {
 		let device = Device()
 
 		var record: [String: Any] = [:]
-		record["publisher_id"] = "" // TODO: Move publisher_id key as mandatory to the Settings
+		record["publisher_id"] = DiscoverSDKUtils.shared.publisherId as NSObject
 		record["app_name"] = DiscoverSDKUtils.shared.appName as NSObject
 		record["advertiser_id"] = DiscoverSDKUtils.shared.advertisingIdentifier as NSObject
 		record["cntry"] = DiscoverSDKUtils.shared.countryCode as NSObject
@@ -254,7 +268,7 @@ public class DiscoverSDK: NSObject {
 		if let delegateData = delegate?.dataToIncludeOnRecords() {
 			record = record.merging(delegateData) { first, _ in first }
 		}
-
+		
 		saveRecord(record: record)
 	}
 

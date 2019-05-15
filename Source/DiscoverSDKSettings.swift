@@ -11,9 +11,9 @@ import Foundation
 public struct Settings {
 
 	// Location Core Identity Pool
-	static let defaultIdentityPoolId = "us-west-2:195a2f03-b344-4cc8-b839-f219cc050ad9"
+	static let defaultIdentityPoolId = "us-west-2:99013dfc-ccf8-4616-9c06-fff31ad70a09"
 
-	private static let defaultStream = "SDKLiteStream"
+	private static let defaultStream = "DiscoverSDKStream"
 
 	private static let defaultThreshold = 20
 	private static let defaultInterval = 5.0

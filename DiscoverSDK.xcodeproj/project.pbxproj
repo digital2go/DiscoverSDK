@@ -7,11 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DE78A58786FD19EF4F07347 /* Pods_DiscoverSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CFF0472AD6EBE6CB5AFEAA /* Pods_DiscoverSDKTests.framework */; };
-		E70F1B66027166DB63567F83 /* Pods_DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB677A138400C1E5F3A97BDF /* Pods_DiscoverSDK.framework */; };
-		F8BB00FC218691F300DF532C /* DiscoverSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F8BB00FB218691F300DF532C /* DiscoverSDK.podspec */; };
-		F8C92985217D41B600D37F92 /* DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */; };
-		F8C9298A217D41B600D37F92 /* DiscoverSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92989217D41B600D37F92 /* DiscoverSDKTests.swift */; };
+		25241B0D21CB4686005C8BEA /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5E5D21B812F700D4D42B /* AuthenticationServices.swift */; };
+		25241B0E21CB4686005C8BEA /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8EF21C73C220037218B /* AuthenticationManager.swift */; };
+		25241B0F21CB4686005C8BEA /* CredentialsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F021C73C220037218B /* CredentialsManager.swift */; };
+		25241B1021CB4686005C8BEA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F221C73C220037218B /* NetworkService.swift */; };
+		25241B1121CB4686005C8BEA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F321C73C220037218B /* NetworkError.swift */; };
+		25241B1321CB4686005C8BEA /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F721C73C220037218B /* Log.swift */; };
+		25241B1421CB4686005C8BEA /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F821C73C220037218B /* DynamicKey.swift */; };
+		25241B1521CB4686005C8BEA /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F921C73C220037218B /* Serializer.swift */; };
+		25241B1621CB4686005C8BEA /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8FA21C73C220037218B /* URLs.swift */; };
+		25241B1721CB4686005C8BEA /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8FC21C73C220037218B /* LoginRequest.swift */; };
+		25241B1821CB4686005C8BEA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8FD21C73C220037218B /* LoginResponse.swift */; };
+		25241B1A21CB4686005C8BEA /* DiscoverSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92995217D427800D37F92 /* DiscoverSDK.swift */; };
+		25241B1F21CB52CB005C8BEA /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25241B1E21CB52CB005C8BEA /* NetworkServiceTests.swift */; };
+		25241B2121CB572F005C8BEA /* CredentialsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25241B2021CB572F005C8BEA /* CredentialsManagerTests.swift */; };
+		25241B2321CB77E3005C8BEA /* AuthenticationServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25241B2221CB77E3005C8BEA /* AuthenticationServicesTests.swift */; };
+		25241B2521CB9B69005C8BEA /* AuthenticationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25241B2421CB9B69005C8BEA /* AuthenticationManagerTests.swift */; };
+		2586D69F21CA47A3000547DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2586D69E21CA47A3000547DC /* AppDelegate.swift */; };
+		2586D6A121CA47A3000547DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2586D6A021CA47A3000547DC /* ViewController.swift */; };
+		2586D6A421CA47A3000547DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2586D6A221CA47A3000547DC /* Main.storyboard */; };
+		2586D6A621CA47A9000547DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2586D6A521CA47A9000547DC /* Assets.xcassets */; };
+		2586D6A921CA47A9000547DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2586D6A721CA47A9000547DC /* LaunchScreen.storyboard */; };
+		25D7A8FF21C73C220037218B /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8EF21C73C220037218B /* AuthenticationManager.swift */; };
+		25D7A90021C73C220037218B /* CredentialsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F021C73C220037218B /* CredentialsManager.swift */; };
+		25D7A90121C73C220037218B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F221C73C220037218B /* NetworkService.swift */; };
+		25D7A90221C73C220037218B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F321C73C220037218B /* NetworkError.swift */; };
+		25D7A90421C73C220037218B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F721C73C220037218B /* Log.swift */; };
+		25D7A90521C73C220037218B /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F821C73C220037218B /* DynamicKey.swift */; };
+		25D7A90621C73C220037218B /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8F921C73C220037218B /* Serializer.swift */; };
+		25D7A90721C73C220037218B /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8FA21C73C220037218B /* URLs.swift */; };
+		25D7A90821C73C220037218B /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8FC21C73C220037218B /* LoginRequest.swift */; };
+		25D7A90921C73C220037218B /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7A8FD21C73C220037218B /* LoginResponse.swift */; };
+		25DF5E6221B812F700D4D42B /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5E5D21B812F700D4D42B /* AuthenticationServices.swift */; };
+		2DE73549765B07A85BA337AA /* Pods_DiscoverSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F0F10272B0062891E25137 /* Pods_DiscoverSDKTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		88CFF9D21441FA218E8656FF /* Pods_DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A052527C78976824FF5558E /* Pods_DiscoverSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CD8228B23FF004D356D /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CD7228B23FF004D356D /* AWSCognito.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CDA228B2422004D356D /* AWSKinesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CD9228B2422004D356D /* AWSKinesis.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CDC228B244A004D356D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CDB228B244A004D356D /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CDE228B247D004D356D /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CDD228B247D004D356D /* DeviceKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CE0228B24AD004D356D /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CDF228B24AD004D356D /* Reachability.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CE2228B2651004D356D /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CE1228B2651004D356D /* OHHTTPStubs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CF5228B42AC004D356D /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CF4228B42AC004D356D /* PromiseKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9169CF7228B42D8004D356D /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9169CF6228B42D8004D356D /* PromiseKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C94B64A2227939400010FABF /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94B64A1227939400010FABF /* AWSCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C97C9DEB2278E0FD004AB302 /* DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C97C9DEC2278E0FD004AB302 /* DiscoverSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C97C9DF52278E4BB004AB302 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C9DF42278E4BB004AB302 /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C97C9DF72278E4BB004AB302 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C9DF62278E4BB004AB302 /* AWSCognito.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C97C9DFB2278E4BB004AB302 /* AWSKinesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C9DFA2278E4BB004AB302 /* AWSKinesis.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C97C9DFD2278E4BB004AB302 /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C9DFC2278E4BB004AB302 /* DeviceKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C97C9E052278E4BB004AB302 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C9E042278E4BB004AB302 /* Reachability.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C97C9E072278E5AA004AB302 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C9E062278E5AA004AB302 /* AWSCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F8C92985217D41B600D37F92 /* DiscoverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F8C92996217D427800D37F92 /* DiscoverSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92995217D427800D37F92 /* DiscoverSDK.swift */; };
 		F8C92999217D4C9000D37F92 /* DataQualityAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92998217D4C9000D37F92 /* DataQualityAnalyser.swift */; };
 		F8C9299A217D4C9000D37F92 /* DataQualityAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C92998217D4C9000D37F92 /* DataQualityAnalyser.swift */; };
@@ -24,6 +71,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		25241B0921CB1DC7005C8BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C92972217D41B600D37F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2586D69B21CA47A3000547DC;
+			remoteInfo = Host;
+		};
+		C97C9DED2278E0FD004AB302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C92972217D41B600D37F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C9297A217D41B600D37F92;
+			remoteInfo = DiscoverSDK;
+		};
 		F8C92986217D41B600D37F92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F8C92972217D41B600D37F92 /* Project object */;
@@ -33,18 +94,69 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C97C9DEF2278E0FD004AB302 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C97C9DEC2278E0FD004AB302 /* DiscoverSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		25241B1E21CB52CB005C8BEA /* NetworkServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		25241B2021CB572F005C8BEA /* CredentialsManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsManagerTests.swift; sourceTree = "<group>"; };
+		25241B2221CB77E3005C8BEA /* AuthenticationServicesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServicesTests.swift; sourceTree = "<group>"; };
+		25241B2421CB9B69005C8BEA /* AuthenticationManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerTests.swift; sourceTree = "<group>"; };
+		2586D69C21CA47A3000547DC /* Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Host.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2586D69E21CA47A3000547DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2586D6A021CA47A3000547DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2586D6A321CA47A3000547DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2586D6A521CA47A9000547DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2586D6A821CA47A9000547DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2586D6AA21CA47A9000547DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D7A8EF21C73C220037218B /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		25D7A8F021C73C220037218B /* CredentialsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsManager.swift; sourceTree = "<group>"; };
+		25D7A8F221C73C220037218B /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		25D7A8F321C73C220037218B /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		25D7A8F721C73C220037218B /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		25D7A8F821C73C220037218B /* DynamicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicKey.swift; sourceTree = "<group>"; };
+		25D7A8F921C73C220037218B /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		25D7A8FA21C73C220037218B /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		25D7A8FC21C73C220037218B /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		25D7A8FD21C73C220037218B /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		25DF5E5D21B812F700D4D42B /* AuthenticationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		2A052527C78976824FF5558E /* Pods_DiscoverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F128CC71BD0A87807411CF2 /* Pods-DiscoverSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiscoverSDK/Pods-DiscoverSDK.release.xcconfig"; sourceTree = "<group>"; };
-		63CFF0472AD6EBE6CB5AFEAA /* Pods_DiscoverSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F0F10272B0062891E25137 /* Pods_DiscoverSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD71710E19CA45A8E6A9E66 /* Pods-DiscoverSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		86F7253B4E7DB2C98B10DF6B /* Pods-DiscoverSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscoverSDK/Pods-DiscoverSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C9169CD7228B23FF004D356D /* AWSCognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CD9228B2422004D356D /* AWSKinesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSKinesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CDB228B244A004D356D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CDD228B247D004D356D /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CDF228B24AD004D356D /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CE1228B2651004D356D /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CE3228B2B5F004D356D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C9169CF4228B42AC004D356D /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9169CF6228B42D8004D356D /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94B64A1227939400010FABF /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C9DF42278E4BB004AB302 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C9DF62278E4BB004AB302 /* AWSCognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C9DFA2278E4BB004AB302 /* AWSKinesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSKinesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C9DFC2278E4BB004AB302 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C9E042278E4BB004AB302 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C9E062278E5AA004AB302 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA80E035C53C1600F42CD6C5 /* Pods-DiscoverSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB677A138400C1E5F3A97BDF /* Pods_DiscoverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8BB00FB218691F300DF532C /* DiscoverSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DiscoverSDK.podspec; sourceTree = "<group>"; };
+		F8A38A13217D7B5D0096DF36 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiscoverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C9297F217D41B600D37F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C92984217D41B600D37F92 /* DiscoverSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8C92989217D41B600D37F92 /* DiscoverSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverSDKTests.swift; sourceTree = "<group>"; };
 		F8C9298B217D41B600D37F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C92995217D427800D37F92 /* DiscoverSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverSDK.swift; sourceTree = "<group>"; };
 		F8C92998217D4C9000D37F92 /* DataQualityAnalyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQualityAnalyser.swift; sourceTree = "<group>"; };
@@ -54,11 +166,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2586D69921CA47A3000547DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97C9DEB2278E0FD004AB302 /* DiscoverSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C92978217D41B600D37F92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70F1B66027166DB63567F83 /* Pods_DiscoverSDK.framework in Frameworks */,
+				C9169CF5228B42AC004D356D /* PromiseKit.framework in Frameworks */,
+				C97C9E072278E5AA004AB302 /* AWSCore.framework in Frameworks */,
+				C97C9DF52278E4BB004AB302 /* Alamofire.framework in Frameworks */,
+				C97C9DF72278E4BB004AB302 /* AWSCognito.framework in Frameworks */,
+				C97C9DFB2278E4BB004AB302 /* AWSKinesis.framework in Frameworks */,
+				C97C9DFD2278E4BB004AB302 /* DeviceKit.framework in Frameworks */,
+				C97C9E052278E4BB004AB302 /* Reachability.framework in Frameworks */,
+				88CFF9D21441FA218E8656FF /* Pods_DiscoverSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,14 +193,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9169CF7228B42D8004D356D /* PromiseKit.framework in Frameworks */,
+				C9169CE2228B2651004D356D /* OHHTTPStubs.framework in Frameworks */,
+				C9169CE0228B24AD004D356D /* Reachability.framework in Frameworks */,
+				C9169CDE228B247D004D356D /* DeviceKit.framework in Frameworks */,
+				C9169CDC228B244A004D356D /* Alamofire.framework in Frameworks */,
+				C9169CDA228B2422004D356D /* AWSKinesis.framework in Frameworks */,
+				C9169CD8228B23FF004D356D /* AWSCognito.framework in Frameworks */,
+				C94B64A2227939400010FABF /* AWSCore.framework in Frameworks */,
 				F8C92985217D41B600D37F92 /* DiscoverSDK.framework in Frameworks */,
-				0DE78A58786FD19EF4F07347 /* Pods_DiscoverSDKTests.framework in Frameworks */,
+				2DE73549765B07A85BA337AA /* Pods_DiscoverSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2586D69D21CA47A3000547DC /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				2586D69E21CA47A3000547DC /* AppDelegate.swift */,
+				2586D6A021CA47A3000547DC /* ViewController.swift */,
+				2586D6A221CA47A3000547DC /* Main.storyboard */,
+				2586D6A521CA47A9000547DC /* Assets.xcassets */,
+				2586D6A721CA47A9000547DC /* LaunchScreen.storyboard */,
+				2586D6AA21CA47A9000547DC /* Info.plist */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		25D7A8EC21C73C220037218B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5E5D21B812F700D4D42B /* AuthenticationServices.swift */,
+				25D7A8EE21C73C220037218B /* Managers */,
+				25D7A8F121C73C220037218B /* Network */,
+				25D7A8F621C73C220037218B /* Support */,
+				25D7A8FB21C73C220037218B /* Data Model */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		25D7A8EE21C73C220037218B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				25D7A8EF21C73C220037218B /* AuthenticationManager.swift */,
+				25D7A8F021C73C220037218B /* CredentialsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		25D7A8F121C73C220037218B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				25D7A8F221C73C220037218B /* NetworkService.swift */,
+				25D7A8F321C73C220037218B /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		25D7A8F621C73C220037218B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				25D7A8F721C73C220037218B /* Log.swift */,
+				25D7A8F821C73C220037218B /* DynamicKey.swift */,
+				25D7A8F921C73C220037218B /* Serializer.swift */,
+				25D7A8FA21C73C220037218B /* URLs.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		25D7A8FB21C73C220037218B /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				25D7A8FC21C73C220037218B /* LoginRequest.swift */,
+				25D7A8FD21C73C220037218B /* LoginResponse.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		5AC653A28FF8C6D7DFD1D586 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +286,24 @@
 		CF18C7015B4C79098AD5754A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DB677A138400C1E5F3A97BDF /* Pods_DiscoverSDK.framework */,
-				63CFF0472AD6EBE6CB5AFEAA /* Pods_DiscoverSDKTests.framework */,
+				C9169CF6228B42D8004D356D /* PromiseKit.framework */,
+				C9169CF4228B42AC004D356D /* PromiseKit.framework */,
+				C9169CE3228B2B5F004D356D /* AssetsLibrary.framework */,
+				C9169CE1228B2651004D356D /* OHHTTPStubs.framework */,
+				C9169CDF228B24AD004D356D /* Reachability.framework */,
+				C9169CDD228B247D004D356D /* DeviceKit.framework */,
+				C9169CDB228B244A004D356D /* Alamofire.framework */,
+				C9169CD9228B2422004D356D /* AWSKinesis.framework */,
+				C9169CD7228B23FF004D356D /* AWSCognito.framework */,
+				C94B64A1227939400010FABF /* AWSCore.framework */,
+				C97C9E062278E5AA004AB302 /* AWSCore.framework */,
+				C97C9DF42278E4BB004AB302 /* Alamofire.framework */,
+				C97C9DF62278E4BB004AB302 /* AWSCognito.framework */,
+				C97C9DFA2278E4BB004AB302 /* AWSKinesis.framework */,
+				C97C9DFC2278E4BB004AB302 /* DeviceKit.framework */,
+				C97C9E042278E4BB004AB302 /* Reachability.framework */,
+				2A052527C78976824FF5558E /* Pods_DiscoverSDK.framework */,
+				53F0F10272B0062891E25137 /* Pods_DiscoverSDKTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,9 +311,9 @@
 		F8C92971217D41B600D37F92 = {
 			isa = PBXGroup;
 			children = (
-				F8BB00FB218691F300DF532C /* DiscoverSDK.podspec */,
 				F8C9297D217D41B600D37F92 /* Source */,
 				F8C92988217D41B600D37F92 /* DiscoverSDKTests */,
+				2586D69D21CA47A3000547DC /* Host */,
 				F8C9297C217D41B600D37F92 /* Products */,
 				5AC653A28FF8C6D7DFD1D586 /* Pods */,
 				CF18C7015B4C79098AD5754A /* Frameworks */,
@@ -111,6 +325,7 @@
 			children = (
 				F8C9297B217D41B600D37F92 /* DiscoverSDK.framework */,
 				F8C92984217D41B600D37F92 /* DiscoverSDKTests.xctest */,
+				2586D69C21CA47A3000547DC /* Host.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +333,8 @@
 		F8C9297D217D41B600D37F92 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				25D7A8EC21C73C220037218B /* Authentication */,
+				F8A38A13217D7B5D0096DF36 /* Podfile */,
 				F8C92995217D427800D37F92 /* DiscoverSDK.swift */,
 				F8C9297F217D41B600D37F92 /* Info.plist */,
 				F8C92998217D4C9000D37F92 /* DataQualityAnalyser.swift */,
@@ -131,7 +348,10 @@
 		F8C92988217D41B600D37F92 /* DiscoverSDKTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8C92989217D41B600D37F92 /* DiscoverSDKTests.swift */,
+				25241B2421CB9B69005C8BEA /* AuthenticationManagerTests.swift */,
+				25241B2221CB77E3005C8BEA /* AuthenticationServicesTests.swift */,
+				25241B2021CB572F005C8BEA /* CredentialsManagerTests.swift */,
+				25241B1E21CB52CB005C8BEA /* NetworkServiceTests.swift */,
 				F8C9298B217D41B600D37F92 /* Info.plist */,
 			);
 			path = DiscoverSDKTests;
@@ -150,6 +370,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2586D69B21CA47A3000547DC /* Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2586D6AB21CA47A9000547DC /* Build configuration list for PBXNativeTarget "Host" */;
+			buildPhases = (
+				2586D69821CA47A3000547DC /* Sources */,
+				2586D69921CA47A3000547DC /* Frameworks */,
+				2586D69A21CA47A3000547DC /* Resources */,
+				C97C9DEF2278E0FD004AB302 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97C9DEE2278E0FD004AB302 /* PBXTargetDependency */,
+			);
+			name = Host;
+			productName = Host;
+			productReference = 2586D69C21CA47A3000547DC /* Host.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F8C9297A217D41B600D37F92 /* DiscoverSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8C9298F217D41B600D37F92 /* Build configuration list for PBXNativeTarget "DiscoverSDK" */;
@@ -184,6 +423,7 @@
 			);
 			dependencies = (
 				F8C92987217D41B600D37F92 /* PBXTargetDependency */,
+				25241B0A21CB1DC7005C8BEA /* PBXTargetDependency */,
 			);
 			name = DiscoverSDKTests;
 			productName = DiscoverSDKTests;
@@ -196,16 +436,26 @@
 		F8C92972217D41B600D37F92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Locally;
 				TargetAttributes = {
+					2586D69B21CA47A3000547DC = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					F8C9297A217D41B600D37F92 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
 					};
 					F8C92983217D41B600D37F92 = {
 						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2586D69B21CA47A3000547DC;
 					};
 				};
 			};
@@ -215,6 +465,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F8C92971217D41B600D37F92;
 			productRefGroup = F8C9297C217D41B600D37F92 /* Products */;
@@ -223,16 +474,26 @@
 			targets = (
 				F8C9297A217D41B600D37F92 /* DiscoverSDK */,
 				F8C92983217D41B600D37F92 /* DiscoverSDKTests */,
+				2586D69B21CA47A3000547DC /* Host */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2586D69A21CA47A3000547DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2586D6A921CA47A9000547DC /* LaunchScreen.storyboard in Resources */,
+				2586D6A621CA47A9000547DC /* Assets.xcassets in Resources */,
+				2586D6A421CA47A3000547DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C92979217D41B600D37F92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8BB00FC218691F300DF532C /* DiscoverSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,24 +531,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
-				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiscoverSDKTests/Pods-DiscoverSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E469628D54D50CAF430598D4 /* [CP] Check Pods Manifest.lock */ = {
@@ -325,15 +578,35 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2586D69821CA47A3000547DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2586D6A121CA47A3000547DC /* ViewController.swift in Sources */,
+				2586D69F21CA47A3000547DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C92977217D41B600D37F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D7A90121C73C220037218B /* NetworkService.swift in Sources */,
+				25D7A90821C73C220037218B /* LoginRequest.swift in Sources */,
+				25D7A90921C73C220037218B /* LoginResponse.swift in Sources */,
 				F8C92999217D4C9000D37F92 /* DataQualityAnalyser.swift in Sources */,
+				25D7A90421C73C220037218B /* Log.swift in Sources */,
+				25D7A90021C73C220037218B /* CredentialsManager.swift in Sources */,
+				25D7A90621C73C220037218B /* Serializer.swift in Sources */,
+				25D7A8FF21C73C220037218B /* AuthenticationManager.swift in Sources */,
 				F8C929A2217D4E9700D37F92 /* DiscoverSDKUtils.swift in Sources */,
+				25DF5E6221B812F700D4D42B /* AuthenticationServices.swift in Sources */,
 				F8C92996217D427800D37F92 /* DiscoverSDK.swift in Sources */,
 				F8C9299C217D4D0A00D37F92 /* DiscoverSDKSettings.swift in Sources */,
 				F8C9299F217D4E1500D37F92 /* AWSConnector.swift in Sources */,
+				25D7A90721C73C220037218B /* URLs.swift in Sources */,
+				25D7A90221C73C220037218B /* NetworkError.swift in Sources */,
+				25D7A90521C73C220037218B /* DynamicKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,17 +614,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25241B0D21CB4686005C8BEA /* AuthenticationServices.swift in Sources */,
+				25241B0E21CB4686005C8BEA /* AuthenticationManager.swift in Sources */,
+				25241B1F21CB52CB005C8BEA /* NetworkServiceTests.swift in Sources */,
+				25241B0F21CB4686005C8BEA /* CredentialsManager.swift in Sources */,
+				25241B2321CB77E3005C8BEA /* AuthenticationServicesTests.swift in Sources */,
+				25241B1021CB4686005C8BEA /* NetworkService.swift in Sources */,
+				25241B2521CB9B69005C8BEA /* AuthenticationManagerTests.swift in Sources */,
+				25241B1121CB4686005C8BEA /* NetworkError.swift in Sources */,
+				25241B1321CB4686005C8BEA /* Log.swift in Sources */,
+				25241B1421CB4686005C8BEA /* DynamicKey.swift in Sources */,
+				25241B1521CB4686005C8BEA /* Serializer.swift in Sources */,
+				25241B1621CB4686005C8BEA /* URLs.swift in Sources */,
+				25241B1721CB4686005C8BEA /* LoginRequest.swift in Sources */,
+				25241B1821CB4686005C8BEA /* LoginResponse.swift in Sources */,
+				25241B1A21CB4686005C8BEA /* DiscoverSDK.swift in Sources */,
 				F8C9299A217D4C9000D37F92 /* DataQualityAnalyser.swift in Sources */,
 				F8C929A3217D4E9700D37F92 /* DiscoverSDKUtils.swift in Sources */,
-				F8C9298A217D41B600D37F92 /* DiscoverSDKTests.swift in Sources */,
 				F8C9299D217D4D0A00D37F92 /* DiscoverSDKSettings.swift in Sources */,
 				F8C929A0217D4E1500D37F92 /* AWSConnector.swift in Sources */,
+				25241B2121CB572F005C8BEA /* CredentialsManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		25241B0A21CB1DC7005C8BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2586D69B21CA47A3000547DC /* Host */;
+			targetProxy = 25241B0921CB1DC7005C8BEA /* PBXContainerItemProxy */;
+		};
+		C97C9DEE2278E0FD004AB302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C9297A217D41B600D37F92 /* DiscoverSDK */;
+			targetProxy = C97C9DED2278E0FD004AB302 /* PBXContainerItemProxy */;
+		};
 		F8C92987217D41B600D37F92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F8C9297A217D41B600D37F92 /* DiscoverSDK */;
@@ -359,7 +657,67 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		2586D6A221CA47A3000547DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2586D6A321CA47A3000547DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2586D6A721CA47A9000547DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2586D6A821CA47A9000547DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		2586D6AC21CA47A9000547DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K79TKW9544;
+				INFOPLIST_FILE = Host/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.locally.Host;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2586D6AD21CA47A9000547DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K79TKW9544;
+				INFOPLIST_FILE = Host/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.locally.Host;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		F8C9298D217D41B600D37F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,7 +854,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +865,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -525,7 +883,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,7 +893,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -543,7 +901,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA80E035C53C1600F42CD6C5 /* Pods-DiscoverSDKTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K79TKW9544;
 				INFOPLIST_FILE = DiscoverSDKTests/Info.plist;
@@ -557,6 +915,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Host.app/Host";
 			};
 			name = Debug;
 		};
@@ -564,7 +923,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FD71710E19CA45A8E6A9E66 /* Pods-DiscoverSDKTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K79TKW9544;
 				INFOPLIST_FILE = DiscoverSDKTests/Info.plist;
@@ -578,12 +937,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Host.app/Host";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2586D6AB21CA47A9000547DC /* Build configuration list for PBXNativeTarget "Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2586D6AC21CA47A9000547DC /* Debug */,
+				2586D6AD21CA47A9000547DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F8C92975217D41B600D37F92 /* Build configuration list for PBXProject "DiscoverSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/AuthenticationServicesTests.swift"
+            timestampString = "578536781.9635921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testLoginSucceed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDKTests.AuthenticationServicesTests.testLoginSucceed() -&gt; ()"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/DiscoverSDKTests/AuthenticationServicesTests.swift"
+                  timestampString = "577845584.747999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (DiscoverSDKTests.LoginResponse) -&gt; () in DiscoverSDKTests.AuthenticationServicesTests.testLoginSucceed() -&gt; ()"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/DiscoverSDKTests/AuthenticationServicesTests.swift"
+                  timestampString = "577845584.753054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/AuthenticationServicesTests.swift"
+            timestampString = "578536781.963675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "testLoginSucceed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/AuthenticationServicesTests.swift"
+            timestampString = "578536781.9637361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testLoginSucceed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/AuthenticationManager.swift"
+            timestampString = "579558585.608157"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578013786.695377"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "274">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578013790.8521039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "274">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/AuthenticationManager.swift"
+            timestampString = "579558585.608229"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578013667.390074"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578013671.947384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/AuthenticationServices.swift"
+            timestampString = "578534662.86138"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.AuthenticationServices.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;DiscoverSDK.LoginResponse&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/AuthenticationServices.swift"
+                  timestampString = "578014123.884813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.AuthenticationServices.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;DiscoverSDKTests.LoginResponse&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/AuthenticationServices.swift"
+                  timestampString = "578014136.855261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.148255"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.148343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in DiscoverSDK):DiscoverSDK.NetworkService.(sendData in _736BA5493A92A163EF218265854623F3)&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, resultType: B1.Type, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "578535007.715916"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PromiseKit.Resolver&lt;B1&gt;) -&gt; () in static (extension in DiscoverSDK):DiscoverSDK.NetworkService.(sendData in _736BA5493A92A163EF218265854623F3)&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, resultType: B1.Type, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "578535007.7191761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in DiscoverSDKTests):DiscoverSDKTests.NetworkService.(sendData in _ADD5D6E5DA770BC8C15A68C89838DEE6)&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, resultType: B1.Type, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "578535009.858197"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PromiseKit.Resolver&lt;B1&gt;) -&gt; () in static (extension in DiscoverSDKTests):DiscoverSDKTests.NetworkService.(sendData in _ADD5D6E5DA770BC8C15A68C89838DEE6)&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, resultType: B1.Type, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "578535009.860774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "173">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.148436"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "handleResponse(response:type:reject:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in DiscoverSDK):DiscoverSDK.NetworkService.(handleResponse in _736BA5493A92A163EF218265854623F3)&lt;A where A1: Swift.Decodable&gt;(response: Alamofire.DataResponse&lt;Foundation.Data&gt;, type: A1.Type, reject: (Swift.Error) -&gt; ()) -&gt; Swift.Optional&lt;A1&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "577926706.0665179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in DiscoverSDKTests):DiscoverSDKTests.NetworkService.(handleResponse in _ADD5D6E5DA770BC8C15A68C89838DEE6)&lt;A where A1: Swift.Decodable&gt;(response: Alamofire.DataResponse&lt;Foundation.Data&gt;, type: A1.Type, reject: (Swift.Error) -&gt; ()) -&gt; Swift.Optional&lt;A1&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "577926713.6134681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "149">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.148513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "POST(url:requestData:headers:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in DiscoverSDK):DiscoverSDK.NetworkService.POST&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "577909536.4576319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in DiscoverSDKTests):DiscoverSDKTests.NetworkService.POST&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "577909539.073661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.1485879"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "POST(url:requestData:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/CredentialsManager.swift"
+            timestampString = "578430964.268713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "accessCredentials"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.CredentialsManager.accessCredentials.didset : Swift.Optional&lt;(Swift.String, Swift.String, Swift.String)&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "578015246.658619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.CredentialsManager.accessCredentials.didset : Swift.Optional&lt;(Swift.String, Swift.String, Swift.String)&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "578015250.223129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/CredentialsManager.swift"
+            timestampString = "578430964.268762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "accessCredentials"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_2DCF0CE69772DC1BE1ABE367C923966C_func1"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "577926962.374643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDK.CredentialsManager.accessCredentials.unsafeMutableAddressor : Swift.Optional&lt;(Swift.String, Swift.String, Swift.String)&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "577926962.378268"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_C9C1D5FA898A826514D84CC995426C22_func1"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "577926965.77853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDKTests.CredentialsManager.accessCredentials.unsafeMutableAddressor : Swift.Optional&lt;(Swift.String, Swift.String, Swift.String)&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "577926965.781047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AWSConnector.swift"
+            timestampString = "578437945.164276"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "configuration"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.AWSServiceConfiguration in DiscoverSDK.AWSConnector.(configuration in _0B51F876D8815B5BD9157679F4E03B0D).getter : __C.AWSServiceConfiguration"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578431227.2061009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.AWSServiceConfiguration in DiscoverSDKTests.AWSConnector.(configuration in _21E66CCC7E792BFF6E8A2810E2CF726D).getter : __C.AWSServiceConfiguration"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578431229.891989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AWSConnector.swift"
+            timestampString = "578437945.164335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "identityPoolId"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDK.AWSConnector.identityPoolId.didset : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578430912.063236"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDKTests.AWSConnector.identityPoolId.didset : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578430915.2081929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AWSConnector.swift"
+            timestampString = "578437945.1643879"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "token()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/CredentialsManager.swift"
+            timestampString = "578430964.2701319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "token"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.CredentialsManager.token.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "577997594.187279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.CredentialsManager.token.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/CredentialsManager.swift"
+                  timestampString = "577997596.930686"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/AuthenticationManagerTests.swift"
+            timestampString = "579551234.398211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testTokenHasBeenSetAfterAuthentication()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/AuthenticationManager.swift"
+            timestampString = "579558585.608444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/AuthenticationManagerTests.swift"
+            timestampString = "579551234.39837"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "testLoginWithCognito()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/AuthenticationManagerTests.swift"
+            timestampString = "579551234.398434"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "testLoginWithCognito()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/DiscoverSDK.swift"
+            timestampString = "578535203.790321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "initialize(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/DiscoverSDK.swift"
+            timestampString = "578535203.7907211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "initialize(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDK.DiscoverSDK.initialize(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/DiscoverSDK.swift"
+                  timestampString = "578253715.896795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (()) -&gt; () in DiscoverSDK.DiscoverSDK.initialize(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/DiscoverSDK.swift"
+                  timestampString = "578253715.901225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.149039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/AuthenticationManager.swift"
+            timestampString = "579558585.60856"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578430790.348428"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PromiseKit.Resolver&lt;()&gt;) -&gt; () in static DiscoverSDK.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578430790.352451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578430793.114862"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PromiseKit.Resolver&lt;()&gt;) -&gt; () in static DiscoverSDKTests.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "578430793.119047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/AuthenticationManager.swift"
+            timestampString = "579558585.608615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PromiseKit.Resolver&lt;()&gt;) -&gt; () in static DiscoverSDK.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "579558590.947087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DiscoverSDK.LoginResponse) -&gt; () in closure #1 (PromiseKit.Resolver&lt;()&gt;) -&gt; () in static DiscoverSDK.AuthenticationManager.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;()&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Managers/AuthenticationManager.swift"
+                  timestampString = "579558590.9507869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Managers/AuthenticationManager.swift"
+            timestampString = "579558585.60868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverSDKTests/NetworkServiceTests.swift"
+            timestampString = "578437945.166097"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "post()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AWSConnector.swift"
+            timestampString = "578437945.166159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "initialize()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDK.AWSConnector.(initialize in _0B51F876D8815B5BD9157679F4E03B0D)() -&gt; ()"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578437946.18005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDKTests.AWSConnector.(initialize in _21E66CCC7E792BFF6E8A2810E2CF726D)() -&gt; ()"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578437949.3484319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AWSConnector.swift"
+            timestampString = "578437945.166219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "configuration"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.AWSServiceConfiguration in DiscoverSDK.AWSConnector.(configuration in _0B51F876D8815B5BD9157679F4E03B0D).getter : __C.AWSServiceConfiguration"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578431227.229519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.AWSServiceConfiguration in DiscoverSDKTests.AWSConnector.(configuration in _21E66CCC7E792BFF6E8A2810E2CF726D).getter : __C.AWSServiceConfiguration"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578431229.918748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AWSConnector.swift"
+            timestampString = "578437945.166272"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "initialize()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDK.AWSConnector.(initialize in _0B51F876D8815B5BD9157679F4E03B0D)() -&gt; ()"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578434828.580315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverSDKTests.AWSConnector.(initialize in _21E66CCC7E792BFF6E8A2810E2CF726D)() -&gt; ()"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/AWSConnector.swift"
+                  timestampString = "578434832.1920021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/AuthenticationServices.swift"
+            timestampString = "578534662.863098"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDK.AuthenticationServices.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;DiscoverSDK.LoginResponse&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/AuthenticationServices.swift"
+                  timestampString = "578534664.5983371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DiscoverSDKTests.AuthenticationServices.login(username: Swift.String, password: Swift.String) -&gt; PromiseKit.Promise&lt;DiscoverSDKTests.LoginResponse&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/AuthenticationServices.swift"
+                  timestampString = "578534669.1326309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.150209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in closure #1 (PromiseKit.Resolver&lt;B1&gt;) -&gt; () in static (extension in DiscoverSDK):DiscoverSDK.NetworkService.(sendData in _736BA5493A92A163EF218265854623F3)&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, resultType: B1.Type, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "578534700.100902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "653">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in closure #1 (PromiseKit.Resolver&lt;B1&gt;) -&gt; () in static (extension in DiscoverSDKTests):DiscoverSDKTests.NetworkService.(sendData in _ADD5D6E5DA770BC8C15A68C89838DEE6)&lt;A, B where A1: Swift.Encodable, B1: Swift.Decodable&gt;(url: Swift.String, requestData: A1, resultType: B1.Type, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; PromiseKit.Promise&lt;B1&gt;"
+                  moduleName = "DiscoverSDKTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodolfopujolluna/Documents/Digital2Go/ios-discover-sdk/Source/Authentication/Network/NetworkService.swift"
+                  timestampString = "578534700.103285"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "653">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.1502759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.150331"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.150388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.15044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.15049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Authentication/Network/NetworkService.swift"
+            timestampString = "578535027.15054"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "sendData(url:requestData:resultType:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Host/ViewController.swift"
+            timestampString = "578605769.299487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

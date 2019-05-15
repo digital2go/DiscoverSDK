@@ -34,6 +34,10 @@ class DiscoverSDKUtils: NSObject {
 		super.init()
 		centralManager = CBCentralManager(delegate: self, queue: DispatchQueue.main)
 	}
+	
+	var publisherId: String {
+		return CredentialsManager.publisherId ?? ""
+	}
 
 	var wiFiMACAddress: String? {
 
@@ -119,7 +123,7 @@ class DiscoverSDKUtils: NSObject {
 	}
 
 	var appState: String {
-		let appState: UIApplicationState = UIApplication.shared.applicationState
+        let appState: UIApplication.State = UIApplication.shared.applicationState
 		return appState == .active ? "foreground" : "background"
 	}
 
