@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "0.5.4"
   s.license      = "MIT"
   s.summary      = "A framework that provides device information and data collecting"
-  s.homepage     = "http://www.digital2go.com"
+  s.homepage     = "https://locally.io/"
   s.author       = { "Eduardo Dias" => "eduardo@digital2go.com" }
 
   s.platform              = :ios
