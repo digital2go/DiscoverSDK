@@ -17,7 +17,7 @@ class AuthenticationServicesTests: XCTestCase {
     private let headers = ["Content-Type": "application/json"]
     private let username = "username"
     private let password = "password"
-
+    /*
 	func testLoginSucceed() {
 
 		let expectation = self.expectation(description: "Authentication serializes with success")
@@ -80,5 +80,5 @@ class AuthenticationServicesTests: XCTestCase {
 		}
 
 		waitForExpectations(timeout: 3.0)
-	}
+	}*/
 }

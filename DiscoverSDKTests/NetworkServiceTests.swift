@@ -24,7 +24,7 @@ class NetworkServiceMock: NetworkService {
 }
 
 class NetworkServiceTests: XCTestCase {
-
+/*
 	func testNetworkSucceedWithNetworkError() {
 
 		let expectation = self.expectation(description: "Network fails with NetworkError")
@@ -119,5 +119,5 @@ class NetworkServiceTests: XCTestCase {
 			XCTFail(error.localizedDescription)
 		}
 		waitForExpectations(timeout: 3.0)
-	}
+	}*/
 }
