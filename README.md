@@ -1,5 +1,5 @@
 # DiscoverSDK
-[![Build Status](https://travis-ci.org/locally-io/ios-discover-sdk.svg?branch=master)](https://travis-ci.org/locally-io/ios-discover-sdk) ![GitHub](https://img.shields.io/github/license/locally-io/ios-discover-sdk.svg) [ ![Download](https://api.bintray.com/packages/locally/engage/core/images/download.svg?version=1.3.1) ](https://bintray.com/locally/engage/core/1.3.1/link)
+[![Build Status](https://travis-ci.com/locally-io/ios-discover-sdk.svg?branch=master)](https://travis-ci.org/locally-io/ios-discover-sdk) ![GitHub](https://img.shields.io/github/license/locally-io/ios-discover-sdk.svg) [ ![Download](https://api.bintray.com/packages/locally/engage/core/images/download.svg?version=1.3.1) ](https://bintray.com/locally/engage/core/1.3.1/link)
 
 ## Requirements
 ---- 
