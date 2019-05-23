@@ -1,5 +1,5 @@
 # DiscoverSDK
-[![Build Status](https://travis-ci.com/locally-io/ios-discover-sdk.svg?branch=master)](https://travis-ci.org/locally-io/ios-discover-sdk) ![GitHub](https://img.shields.io/github/license/locally-io/ios-discover-sdk.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/locally-io/ios-engage-sdk.svg)
+[![Build Status](https://travis-ci.com/locally-io/ios-discover-sdk.svg?branch=master)](https://travis-ci.org/locally-io/ios-discover-sdk) ![GitHub](https://img.shields.io/github/license/locally-io/ios-discover-sdk.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/locally-io/ios-discover-sdk.svg)
 
 ## Requirements
 ---- 
