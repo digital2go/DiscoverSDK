@@ -1,11 +1,14 @@
-# Requirements
+# DiscoverSDK
+[![Build Status](https://travis-ci.org/locally-io/ios-discover-sdk.svg?branch=master)](https://travis-ci.org/locally-io/ios-discover-sdk) ![GitHub](https://img.shields.io/github/license/locally-io/ios-discover-sdk.svg) [ ![Download](https://api.bintray.com/packages/locally/engage/core/images/download.svg?version=1.3.1) ](https://bintray.com/locally/engage/core/1.3.1/link)
+
+## Requirements
 ---- 
 * iOS 10 +
 * Xcode 10 +
 * Swift 4.2 +
 * Cocoapods
 
-# Installation
+## Installation
 ---- 
 ## CocoaPods
 Cocoapods is a dependency management platform to install, update and delete the libraries used on the project.
